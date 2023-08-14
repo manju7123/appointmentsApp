@@ -1,0 +1,123 @@
+.bg-container {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 100%;
+  border-radius: 14px;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.inner-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.appointment-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 50%;
+}
+.form-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.card-heading {
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #171f46;
+  margin-bottom: 20px;
+}
+.title {
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #b5b7c4;
+  margin-bottom: 6px;
+}
+.input-item {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #171f46;
+  border: 1px solid #b5b7c4;
+}
+.add-btn {
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #8b5cf6;
+  padding: 6px;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.image {
+  width: 50%;
+}
+.line {
+  width: 100%;
+  color: #b5b7c4;
+}
+.appointments-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.first-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.appointments {
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #171f46;
+}
+.starred {
+  border: 1px solid #9897f0;
+  background-color: transparent;
+  color: #9897f0;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.list-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.color-btn {
+  background-color: #9897f0;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
